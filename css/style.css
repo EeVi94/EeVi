@@ -51,7 +51,7 @@ html {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Robot', sans-serif;
   height: 100%;
   width: 100%;
 }
@@ -164,7 +164,7 @@ img { max-width: 100%; }
   font-weight: 400;
   margin-top: 70px;
   line-height: 30px;
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 0.4px;
 }
 .content-details {
@@ -456,11 +456,11 @@ h3,
 h4,
 h5 {
   letter-spacing: 0.8px;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Futura LT Book', serif;
 }
 p {
   letter-spacing: 0.5px;
-  font-size: 13px;
+  font-size: 15px;
   line-height: 34px;
   font-weight: 300;
 }
@@ -470,7 +470,7 @@ p {
 }
 #home .typed {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 24px;
   line-height: 26px;
   letter-spacing: 1.5px;
   margin: 0 auto;
@@ -479,13 +479,13 @@ p {
 .year {
   font-size: 26px;
   font-weight: 500;
-  margin-bottom: 10px;
-  font-family: 'Roboto', sans-serif;
+  margin-bottom: 15px;
+  font-family: 'Futura LT Book', sans-serif;
 }
 .job {
   font-size: 14px;
   font-weight: 500;
-  line-height: 14px;
+  line-height: 13px;
   letter-spacing: 0.4px;
   text-transform: uppercase;
   color: #cccccc;
@@ -535,6 +535,19 @@ p {
   outline-offset: 8px;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
+}
+.blink {
+  animation: blink 3s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    color: yellow;
+  }
 }
 
 /*mouse*/
